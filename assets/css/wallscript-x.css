@@ -1,0 +1,238 @@
+/*body{background:#fff;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-size:11px;color:#333;margin:0;padding:0;text-align:left;direction:ltr;unicode-bidi:embed}*/
+
+a
+{	text-decoration:none; }
+	
+
+.egg{min-height:58px;padding-bottom:8px;position:relative}
+.egg_Body{border-top:1px solid #eee;color:#808080;padding-top:8px}
+.egg_Message{font-size:14px !important;font-weight:normal;overflow:hidden}
+
+h3{font-size:14px;color:#333;margin:0;padding:0}
+.comment_ui
+{
+background-color:#f2f2f2;border-bottom:1px solid #e5eaf1;clear:left;float:none;overflow:hidden;margin-bottom:2px;padding:6px 4px 3px 6px;/*width:431px;*/ 
+}
+.dddd
+{
+background-color:#f2f2f2;border-bottom:1px solid #e5eaf1;clear:left;float:none;overflow:hidden;margin-bottom:2px;padding:6px 4px 3px 6px;/*width:431px;*/ 
+}
+.delete
+{
+clear:left;float:right;overflow:hidden;margin-bottom:2px;padding:6px 4px 3px 6px;/*width:431px;*/ 
+}
+.comment_text{padding:2px 0 4px; color:#333333}
+.comment_actual_text{display:inline;padding-left:.4em}
+
+ol { 
+	list-style:none;
+	margin:0 auto;
+	/*width:500px;*/
+	margin-top: 20px;
+}
+.clean { display:none}
+.editbox
+{
+/*overflow: hidden; height: 61px;border:solid 1px #0099CC; min-width:488px; max-width:488px; font-size:12px;font-family:Arial, Helvetica, sans-serif; padding:5px*/
+overflow: hidden; height: 61px;border:solid 1px #0099CC; font-size:13px;font-family:Arial, Helvetica, sans-serif; padding:5px
+}
+#but{
+background-color: #5B74A8;
+border: 1px solid #29447e;
+padding:2px 16px;
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+float:right;
+cursor:pointer;
+margin-top: 2px;
+}
+#buts{
+background-color: #5B74A8;
+border: 1px solid #29447e;
+padding:2px 10px;
+font-family:Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+float:right;
+cursor:pointer;
+/*height: 32px;*/
+}
+.egg_Message img{
+float:left;
+padding-right: 7px;
+}
+#sssss{
+	float: left;
+	width: 80%;
+/*float:right;  دصدصس
+width: 392px;*/
+}
+
+/* user card - profile */
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .card-heading {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.card .card-heading.simple {
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-right: 15px;
+    vertical-align: top;
+    border: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+    font-size: 12px;
+    color: #999999;
+}
+
+.card .card-body {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.card .card-media {
+    padding: 0 20px;
+    margin: 0 -14px;
+}
+
+.card .card-media img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-actions {
+    min-height: 30px;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+    padding: 20px;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+    padding: 0;
+    margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+    padding-right: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-comments .media-heading {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+    background: url("http://lorempixel.com/850/280/nature/1/");
+    background-size: cover;
+    height: 135px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+.wall_delete{
+    display: none;
+}
+.wall_title:hover .wall_delete {
+   display:block  
+}
